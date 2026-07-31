@@ -1,7 +1,30 @@
 aid: openloophealth
-name: Openloophealth
-description: Openloophealth is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openloophealth.png
+name: OpenLoop Health
+description: >-
+  OpenLoop Health is a Des Moines, Iowa-based white-label telehealth
+  infrastructure company that powers virtual care for digital health companies,
+  health plans, diagnostic labs, retailers and pharmacies, and hospitals and
+  health systems. Its platform bundles a nationwide clinician network (covering
+  all 50 states and more than 500,000 patient visits per month), provider
+  staffing, licensing and credentialing, payer coverage and revenue cycle
+  management, diagnostic imaging, regulatory and legal support, and practice
+  management, with AI-powered clinical operations across synchronous and
+  asynchronous care. OpenLoop delivers its capabilities through EHR integrations
+  and protocol-specific API integrations offered to partners via sales; as of
+  this profile there is no publicly published API specification, SDK, developer
+  portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/openloophealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Digital Health
+- EHR
+- Clinician Network
+- Revenue Cycle Management
+- White Label
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://openloophealth.com/
+- type: Blog
+  url: https://openloophealth.com/blog
+- type: Support
+  url: https://openloophealth.com/contact
+- type: PrivacyPolicy
+  url: https://openloophealth.com/website-privacy-policy
+- type: TermsOfService
+  url: https://openloophealth.com/terms-of-use
+- type: DomainSecurity
+  url: security/openloophealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
